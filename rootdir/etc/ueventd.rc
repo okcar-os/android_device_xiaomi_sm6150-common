@@ -128,6 +128,12 @@ firmware_directories /vendor/firmware_mnt/image/
 # Kmsg device
 /dev/kmsg                 0620   root       system
 
+# Hid
+/dev/hidg0             0660   system       system
+
+# Okcar
+/dev/okcar             0660   system       system
+
 # LED class devices
 /sys/class/leds/left     breath          0640    system    system
 /sys/class/leds/left     brightness      0640    system    system
