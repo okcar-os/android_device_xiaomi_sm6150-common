@@ -25,8 +25,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import /vendor/etc/init/hw/ueventd.okcar.rc
-
 # Firmware directory Path
 # Below macro will be read by uevent and path will
 # be added to search path for firmware loading
@@ -187,3 +185,5 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # Charger
 /sys/class/power_supply/battery input_suspend   0660    system  system
+
+import /vendor/etc/init/hw/ueventd.okcar.rc
